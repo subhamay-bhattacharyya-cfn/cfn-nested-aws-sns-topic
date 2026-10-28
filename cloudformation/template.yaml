@@ -5,7 +5,7 @@ Description: 'Nested CloudFormation template to create an SNS topic (Standard or
 Parameters:
   ProjectName:
     Type: String
-    Default: 'proj-ztc'
+    Default: 'cfn-nested'
     Description: Project name to use as a topic name prefix
     MinLength: 1
     MaxLength: 20
